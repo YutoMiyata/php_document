@@ -1,0 +1,23 @@
+//foreach
+
+使用場面: 複数の値を展開して、表示するときに使用。
+
+ex.基本型は値(value)のみの展開
+
+$members = [
+    'name' => 'Sasaki',
+    'height' => 170,
+    'hobby' => 'running'
+]
+
+foreach($members as $member) {
+    echo $member
+}
+
+出力→値(value)の出力
+
+Sasaki
+170
+running
+
+

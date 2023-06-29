@@ -1,0 +1,8 @@
+//連想配列
+
+ex.
+tanaka_info = [
+    'name' => 'kousuke tanaka',
+    'height' => 170,
+    'favorite_food' => 'curry'
+]

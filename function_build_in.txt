@@ -1,0 +1,35 @@
+組み込み関数
+
+
+//文字数の取得(バイト数)
+
+$string = "こんにちは";
+$textNum = strlen($string);
+
+echo ($textNum); //結果:15
+
+
+//文字数の取得(日本語対応)   mb→マルチバイト
+
+$string = "こんにちは";
+$textNum = mbstrlen($string);
+
+echo ($textNum); //結果:5
+
+
+//文字列の置換(置き換え)
+
+$str = "文字列を置換します";
+
+echo str_replace('置換','ちかん','$str'); //結果:文字列をちかんします
+
+//文字列の分割
+
+$str_2 = '文字列を、分割します';
+
+var_dump(explode('、',$str)) //結果は配列で返ってくる。
+
+//指定文字列から文字列の取得
+
+echo mb_substr('かきくけこ',2); //結果:くけこ
+
